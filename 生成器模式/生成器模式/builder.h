@@ -1,0 +1,22 @@
+//
+//  builder.h
+//  生成器模式
+//
+//  Created by 神州锐达 on 2017/11/15.
+//  Copyright © 2017年 onePiece. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@protocol builder <NSObject>
+
+-(instancetype)buildHeader;
+
+-(instancetype)buildBody;
+
+-(instancetype)buildFooter;
+
+-(NSString *)getProduct;
+
+
+@end
