@@ -7,10 +7,14 @@
 //
 
 #import "CommandLoader.h"
-
+#import "Light.h"
+#import "LightOnCommand.h"
+#import "LIghtOffCommand.h"
 @interface CommandLoader()
 
 @property(strong,nonatomic)CommandExecute *execute;
+
+@property(strong,nonatomic)NSArray *completedCommandsArr;
 
 @end
 
@@ -22,15 +26,30 @@
     
     if (self = [super init]) {
         self.execute = execute;
-        
-        [self configureCommand];
     }
     return self;
 }
 
 ///装配命令
--(void)configureCommand{
+-(void)configureCommand:(CommandExecuteType)type{
     
+    Light *light = [Light new];
+    
+    LightOnCommand *lightON = [[LightOnCommand alloc]initWithLight:light];
+    LIghtOffCommand *lightOFF = [[LIghtOffCommand alloc]initWithLight:light];
+    
+    switch (type) {
+        case 0:
+        {
+        [self.execute setCommandWithTag:type onCommand:lightON offCommand:lightOFF];
+        }
+            break;
+            
+        default:
+            break;
+    }
+   
+    self.completedCommandsArr = @[lightON,lightOFF];
     
 }
 

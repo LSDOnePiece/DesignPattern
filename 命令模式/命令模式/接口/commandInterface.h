@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+
 @protocol CommandInterface <NSObject>
 
 ///执行

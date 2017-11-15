@@ -18,6 +18,8 @@
 		EAE669171FBC1D99005AA050 /* CDPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE669121FBC1D99005AA050 /* CDPlayer.m */; };
 		EAE669181FBC1D99005AA050 /* Light.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE669141FBC1D99005AA050 /* Light.m */; };
 		EAE6691C1FBC2027005AA050 /* NoCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE6691B1FBC2027005AA050 /* NoCommand.m */; };
+		EAE669281FBC31D6005AA050 /* LightOnCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE669271FBC31D6005AA050 /* LightOnCommand.m */; };
+		EAE6692B1FBC31E8005AA050 /* LIghtOffCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE6692A1FBC31E8005AA050 /* LIghtOffCommand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,10 @@
 		EAE669141FBC1D99005AA050 /* Light.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Light.m; sourceTree = "<group>"; };
 		EAE6691A1FBC2027005AA050 /* NoCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoCommand.h; sourceTree = "<group>"; };
 		EAE6691B1FBC2027005AA050 /* NoCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoCommand.m; sourceTree = "<group>"; };
+		EAE669261FBC31D6005AA050 /* LightOnCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightOnCommand.h; sourceTree = "<group>"; };
+		EAE669271FBC31D6005AA050 /* LightOnCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightOnCommand.m; sourceTree = "<group>"; };
+		EAE669291FBC31E8005AA050 /* LIghtOffCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LIghtOffCommand.h; sourceTree = "<group>"; };
+		EAE6692A1FBC31E8005AA050 /* LIghtOffCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LIghtOffCommand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +140,10 @@
 			children = (
 				EAE6691A1FBC2027005AA050 /* NoCommand.h */,
 				EAE6691B1FBC2027005AA050 /* NoCommand.m */,
+				EAE669261FBC31D6005AA050 /* LightOnCommand.h */,
+				EAE669271FBC31D6005AA050 /* LightOnCommand.m */,
+				EAE669291FBC31E8005AA050 /* LIghtOffCommand.h */,
+				EAE6692A1FBC31E8005AA050 /* LIghtOffCommand.m */,
 			);
 			path = "具体命令";
 			sourceTree = "<group>";
@@ -213,8 +223,10 @@
 				EAE668B51FBBFAED005AA050 /* ViewController.m in Sources */,
 				EAE6691C1FBC2027005AA050 /* NoCommand.m in Sources */,
 				EAE669161FBC1D99005AA050 /* CommandExecute.m in Sources */,
+				EAE6692B1FBC31E8005AA050 /* LIghtOffCommand.m in Sources */,
 				EAE669181FBC1D99005AA050 /* Light.m in Sources */,
 				EAE668C01FBBFAED005AA050 /* main.m in Sources */,
+				EAE669281FBC31D6005AA050 /* LightOnCommand.m in Sources */,
 				EAE668B21FBBFAED005AA050 /* AppDelegate.m in Sources */,
 				EAE669171FBC1D99005AA050 /* CDPlayer.m in Sources */,
 			);

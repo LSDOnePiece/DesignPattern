@@ -10,8 +10,6 @@
 #import "CommandInterface.h"
 @interface CommandExecute : NSObject
 
-@property(strong,nonatomic)id<CommandInterface> command;
-
 ///打开命令
 -(void)onButtonClickWithTag:(NSInteger)tag;
 ///关闭命令
@@ -22,7 +20,7 @@
 -(void)undoAllOperation;
 
 ///设置命令
--(void)setCommandWithTag:(NSInteger)tag onCommand:(id<CommandInterface>)onCommand offCommand:(id<CommandInterface>)offCommand;
+-(void)setCommandWithTag:(NSInteger)tag onCommand:(id<CommandInterface>)onCommand  offCommand:(id<CommandInterface>)offCommand;
 
 
 @end

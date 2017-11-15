@@ -8,8 +8,17 @@
 
 #import <Foundation/Foundation.h>
 #import "CommandExecute.h"
+
+typedef enum : NSUInteger {
+    CommandExecuteTypeLight,
+} CommandExecuteType;
+
+
 @interface CommandLoader : NSObject
 
 -(instancetype)initWithCommandExecute:(CommandExecute *)execute;
+
+///装配命令
+-(void)configureCommand:(CommandExecuteType)type;
 
 @end

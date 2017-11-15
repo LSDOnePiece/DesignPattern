@@ -71,6 +71,8 @@
 ///全部撤销
 -(void)undoAllOperation{
     
+    
+    NSLog(@"%@",self.completeCommandsArr);
     for (id<CommandInterface> command in self.completeCommandsArr) {
         
         [command undo];
