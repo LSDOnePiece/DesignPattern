@@ -6,7 +6,7 @@
 //  Copyright © 2017年 onePiece. All rights reserved.
 //
 
-#pragma mark -- 适用于一些列有序操作，并对之前的操作有记录，支持回滚。
+#pragma mark -- 适用于一系列有序操作，并要求对之前的操作有记录，支持回滚。
 
 #import "ViewController.h"
 #import "CommandLoader.h"
