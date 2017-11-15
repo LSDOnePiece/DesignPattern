@@ -1,5 +1,5 @@
 //
-//  commandLoader.h
+//  CommandLoader.h
 //  命令模式
 //
 //  Created by 神州锐达 on 2017/11/15.
@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "commandExecute.h"
-@interface commandLoader : NSObject
+#import "CommandExecute.h"
+@interface CommandLoader : NSObject
 
--(instancetype)initWithCommandExecute:(commandExecute *)commandExecute;
+-(instancetype)initWithCommandExecute:(CommandExecute *)execute;
 
 @end

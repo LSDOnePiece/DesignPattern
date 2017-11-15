@@ -13,10 +13,10 @@
 		EAE668BA1FBBFAED005AA050 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAE668B91FBBFAED005AA050 /* Assets.xcassets */; };
 		EAE668BD1FBBFAED005AA050 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAE668BB1FBBFAED005AA050 /* LaunchScreen.storyboard */; };
 		EAE668C01FBBFAED005AA050 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE668BF1FBBFAED005AA050 /* main.m */; };
-		EAE668CE1FBC1464005AA050 /* Light.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE668CD1FBC1463005AA050 /* Light.m */; };
-		EAE668D11FBC1470005AA050 /* CDPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE668D01FBC1470005AA050 /* CDPlayer.m */; };
-		EAE668D41FBC15B0005AA050 /* commandExecute.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE668D31FBC15B0005AA050 /* commandExecute.m */; };
-		EAE668D71FBC15C3005AA050 /* commandLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE668D61FBC15C3005AA050 /* commandLoader.m */; };
+		EAE669151FBC1D99005AA050 /* CommandLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE6690A1FBC1D98005AA050 /* CommandLoader.m */; };
+		EAE669161FBC1D99005AA050 /* CommandExecute.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE6690D1FBC1D98005AA050 /* CommandExecute.m */; };
+		EAE669171FBC1D99005AA050 /* CDPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE669121FBC1D99005AA050 /* CDPlayer.m */; };
+		EAE669181FBC1D99005AA050 /* Light.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE669141FBC1D99005AA050 /* Light.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,15 +30,15 @@
 		EAE668BC1FBBFAED005AA050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAE668BE1FBBFAED005AA050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAE668BF1FBBFAED005AA050 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EAE668CB1FBC1404005AA050 /* commandInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = commandInterface.h; sourceTree = "<group>"; };
-		EAE668CC1FBC1463005AA050 /* Light.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Light.h; sourceTree = "<group>"; };
-		EAE668CD1FBC1463005AA050 /* Light.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Light.m; sourceTree = "<group>"; };
-		EAE668CF1FBC1470005AA050 /* CDPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDPlayer.h; sourceTree = "<group>"; };
-		EAE668D01FBC1470005AA050 /* CDPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDPlayer.m; sourceTree = "<group>"; };
-		EAE668D21FBC15B0005AA050 /* commandExecute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = commandExecute.h; sourceTree = "<group>"; };
-		EAE668D31FBC15B0005AA050 /* commandExecute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = commandExecute.m; sourceTree = "<group>"; };
-		EAE668D51FBC15C3005AA050 /* commandLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = commandLoader.h; sourceTree = "<group>"; };
-		EAE668D61FBC15C3005AA050 /* commandLoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = commandLoader.m; sourceTree = "<group>"; };
+		EAE669091FBC1D98005AA050 /* CommandLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandLoader.h; sourceTree = "<group>"; };
+		EAE6690A1FBC1D98005AA050 /* CommandLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandLoader.m; sourceTree = "<group>"; };
+		EAE6690C1FBC1D98005AA050 /* CommandExecute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandExecute.h; sourceTree = "<group>"; };
+		EAE6690D1FBC1D98005AA050 /* CommandExecute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandExecute.m; sourceTree = "<group>"; };
+		EAE6690F1FBC1D99005AA050 /* CommandInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandInterface.h; sourceTree = "<group>"; };
+		EAE669111FBC1D99005AA050 /* CDPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDPlayer.h; sourceTree = "<group>"; };
+		EAE669121FBC1D99005AA050 /* CDPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDPlayer.m; sourceTree = "<group>"; };
+		EAE669131FBC1D99005AA050 /* Light.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Light.h; sourceTree = "<group>"; };
+		EAE669141FBC1D99005AA050 /* Light.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Light.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,11 +71,11 @@
 		EAE668AF1FBBFAED005AA050 /* 命令模式 */ = {
 			isa = PBXGroup;
 			children = (
-				EAE668C91FBC13BE005AA050 /* 接口 */,
-				EAE668C61FBC13BD005AA050 /* 具体命令 */,
-				EAE668C71FBC13BD005AA050 /* 命令调用者 */,
-				EAE668CA1FBC13BE005AA050 /* 命令接受者 */,
-				EAE668C81FBC13BD005AA050 /* 命令装配者 */,
+				EAE669191FBC1DB6005AA050 /* 具体命令 */,
+				EAE6690E1FBC1D99005AA050 /* 接口 */,
+				EAE6690B1FBC1D98005AA050 /* 命令调用者 */,
+				EAE669101FBC1D99005AA050 /* 命令接受者 */,
+				EAE669081FBC1D98005AA050 /* 命令装配者 */,
 				EAE668B01FBBFAED005AA050 /* AppDelegate.h */,
 				EAE668B11FBBFAED005AA050 /* AppDelegate.m */,
 				EAE668B31FBBFAED005AA050 /* ViewController.h */,
@@ -89,48 +89,48 @@
 			path = "命令模式";
 			sourceTree = "<group>";
 		};
-		EAE668C61FBC13BD005AA050 /* 具体命令 */ = {
+		EAE669081FBC1D98005AA050 /* 命令装配者 */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = "具体命令";
-			sourceTree = "<group>";
-		};
-		EAE668C71FBC13BD005AA050 /* 命令调用者 */ = {
-			isa = PBXGroup;
-			children = (
-				EAE668D21FBC15B0005AA050 /* commandExecute.h */,
-				EAE668D31FBC15B0005AA050 /* commandExecute.m */,
-			);
-			path = "命令调用者";
-			sourceTree = "<group>";
-		};
-		EAE668C81FBC13BD005AA050 /* 命令装配者 */ = {
-			isa = PBXGroup;
-			children = (
-				EAE668D51FBC15C3005AA050 /* commandLoader.h */,
-				EAE668D61FBC15C3005AA050 /* commandLoader.m */,
+				EAE669091FBC1D98005AA050 /* CommandLoader.h */,
+				EAE6690A1FBC1D98005AA050 /* CommandLoader.m */,
 			);
 			path = "命令装配者";
 			sourceTree = "<group>";
 		};
-		EAE668C91FBC13BE005AA050 /* 接口 */ = {
+		EAE6690B1FBC1D98005AA050 /* 命令调用者 */ = {
 			isa = PBXGroup;
 			children = (
-				EAE668CB1FBC1404005AA050 /* commandInterface.h */,
+				EAE6690C1FBC1D98005AA050 /* CommandExecute.h */,
+				EAE6690D1FBC1D98005AA050 /* CommandExecute.m */,
+			);
+			path = "命令调用者";
+			sourceTree = "<group>";
+		};
+		EAE6690E1FBC1D99005AA050 /* 接口 */ = {
+			isa = PBXGroup;
+			children = (
+				EAE6690F1FBC1D99005AA050 /* CommandInterface.h */,
 			);
 			path = "接口";
 			sourceTree = "<group>";
 		};
-		EAE668CA1FBC13BE005AA050 /* 命令接受者 */ = {
+		EAE669101FBC1D99005AA050 /* 命令接受者 */ = {
 			isa = PBXGroup;
 			children = (
-				EAE668CC1FBC1463005AA050 /* Light.h */,
-				EAE668CD1FBC1463005AA050 /* Light.m */,
-				EAE668CF1FBC1470005AA050 /* CDPlayer.h */,
-				EAE668D01FBC1470005AA050 /* CDPlayer.m */,
+				EAE669111FBC1D99005AA050 /* CDPlayer.h */,
+				EAE669121FBC1D99005AA050 /* CDPlayer.m */,
+				EAE669131FBC1D99005AA050 /* Light.h */,
+				EAE669141FBC1D99005AA050 /* Light.m */,
 			);
 			path = "命令接受者";
+			sourceTree = "<group>";
+		};
+		EAE669191FBC1DB6005AA050 /* 具体命令 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "具体命令";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,13 +204,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAE669151FBC1D99005AA050 /* CommandLoader.m in Sources */,
 				EAE668B51FBBFAED005AA050 /* ViewController.m in Sources */,
-				EAE668D41FBC15B0005AA050 /* commandExecute.m in Sources */,
+				EAE669161FBC1D99005AA050 /* CommandExecute.m in Sources */,
+				EAE669181FBC1D99005AA050 /* Light.m in Sources */,
 				EAE668C01FBBFAED005AA050 /* main.m in Sources */,
-				EAE668D71FBC15C3005AA050 /* commandLoader.m in Sources */,
-				EAE668CE1FBC1464005AA050 /* Light.m in Sources */,
-				EAE668D11FBC1470005AA050 /* CDPlayer.m in Sources */,
 				EAE668B21FBBFAED005AA050 /* AppDelegate.m in Sources */,
+				EAE669171FBC1D99005AA050 /* CDPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  commandExecute.h
+//  CommandExecute.h
 //  命令模式
 //
 //  Created by 神州锐达 on 2017/11/15.
@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "CommandInterface.h"
+@interface CommandExecute : NSObject
 
-@interface commandExecute : NSObject
+
 
 @end
