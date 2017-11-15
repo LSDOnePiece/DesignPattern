@@ -6,6 +6,8 @@
 //  Copyright © 2017年 onePiece. All rights reserved.
 //
 
+#pragma mark --  适用于按照一定的规则组装数据的场景
+
 #import "ViewController.h"
 #import "XMLBuilder.h"
 #import "HtmlBuilder.h"
