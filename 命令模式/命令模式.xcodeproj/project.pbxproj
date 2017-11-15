@@ -17,6 +17,7 @@
 		EAE669161FBC1D99005AA050 /* CommandExecute.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE6690D1FBC1D98005AA050 /* CommandExecute.m */; };
 		EAE669171FBC1D99005AA050 /* CDPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE669121FBC1D99005AA050 /* CDPlayer.m */; };
 		EAE669181FBC1D99005AA050 /* Light.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE669141FBC1D99005AA050 /* Light.m */; };
+		EAE6691C1FBC2027005AA050 /* NoCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE6691B1FBC2027005AA050 /* NoCommand.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		EAE669121FBC1D99005AA050 /* CDPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDPlayer.m; sourceTree = "<group>"; };
 		EAE669131FBC1D99005AA050 /* Light.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Light.h; sourceTree = "<group>"; };
 		EAE669141FBC1D99005AA050 /* Light.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Light.m; sourceTree = "<group>"; };
+		EAE6691A1FBC2027005AA050 /* NoCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoCommand.h; sourceTree = "<group>"; };
+		EAE6691B1FBC2027005AA050 /* NoCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoCommand.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +74,8 @@
 		EAE668AF1FBBFAED005AA050 /* 命令模式 */ = {
 			isa = PBXGroup;
 			children = (
-				EAE669191FBC1DB6005AA050 /* 具体命令 */,
 				EAE6690E1FBC1D99005AA050 /* 接口 */,
+				EAE669191FBC1DB6005AA050 /* 具体命令 */,
 				EAE6690B1FBC1D98005AA050 /* 命令调用者 */,
 				EAE669101FBC1D99005AA050 /* 命令接受者 */,
 				EAE669081FBC1D98005AA050 /* 命令装配者 */,
@@ -129,6 +132,8 @@
 		EAE669191FBC1DB6005AA050 /* 具体命令 */ = {
 			isa = PBXGroup;
 			children = (
+				EAE6691A1FBC2027005AA050 /* NoCommand.h */,
+				EAE6691B1FBC2027005AA050 /* NoCommand.m */,
 			);
 			path = "具体命令";
 			sourceTree = "<group>";
@@ -206,6 +211,7 @@
 			files = (
 				EAE669151FBC1D99005AA050 /* CommandLoader.m in Sources */,
 				EAE668B51FBBFAED005AA050 /* ViewController.m in Sources */,
+				EAE6691C1FBC2027005AA050 /* NoCommand.m in Sources */,
 				EAE669161FBC1D99005AA050 /* CommandExecute.m in Sources */,
 				EAE669181FBC1D99005AA050 /* Light.m in Sources */,
 				EAE668C01FBBFAED005AA050 /* main.m in Sources */,
