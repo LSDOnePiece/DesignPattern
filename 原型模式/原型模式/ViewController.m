@@ -23,7 +23,7 @@
     Verter *verter4 = [verter1 copy];
     [verter4 setLocation:CGPointMake(50, 50)];
     
-    NSLog(@"verter1地址：%p,verter1地址：%p,verter1地址：%p,verter1地址：%p",verter1,verter2,verter3,verter4);
+    NSLog(@"verter1地址：%p,verter2地址：%p,verter3地址：%p,verter4地址：%p",verter1,verter2,verter3,verter4);
     
     NSLog(@"verter3的Location：%@,verter4的Location:%@",NSStringFromCGPoint(verter3.location),NSStringFromCGPoint(verter4.location));
     
