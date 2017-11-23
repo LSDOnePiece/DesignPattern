@@ -50,8 +50,8 @@
     
     ///甜点菜单添加到正餐菜单
     [dinnerMenu add:dessertMenu];
-//    
-//    [allMenu print];
+   
+//  [allMenu print];
     
     [allMenu remove:dessertItem1];
     
